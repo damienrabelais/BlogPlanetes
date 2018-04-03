@@ -3,6 +3,8 @@ class Administrateur extends CI_Controller {
 
         public function __construct()
         {
+            // Notre modification est ICI !
+
                 parent::__construct();
                 $this->load->model('ModeleArticle');
                 
